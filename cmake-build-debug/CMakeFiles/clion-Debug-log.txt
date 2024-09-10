@@ -1,0 +1,12 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/usr/bin/make -DCMAKE_C_COMPILER=/opt/homebrew/Cellar/llvm/17.0.6/bin/clang -DCMAKE_CXX_COMPILER=/opt/homebrew/Cellar/llvm/17.0.6/bin/clang++ -G "CodeBlocks - Unix Makefiles" -S /Users/yuhong/CLionProjects/libcubwt-1.0.0 -B /Users/yuhong/CLionProjects/libcubwt-1.0.0/cmake-build-debug
+-- The CXX compiler identification is unknown
+CMake Error at /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.26/Modules/CMakeDetermineCUDACompiler.cmake:180 (message):
+  Failed to find nvcc.
+
+  Compiler requires the CUDA toolkit.  Please set the CUDAToolkit_ROOT
+  variable.
+Call Stack (most recent call first):
+  CMakeLists.txt:2 (project)
+
+
+-- Configuring incomplete, errors occurred!
